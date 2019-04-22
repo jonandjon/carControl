@@ -1,5 +1,5 @@
 # Car-Control "driveGeany"
-### Autor: Jonas Heinke, Datum: 2017 - 2018
+### Autor: Jonas Heinke, Datum: 2017 - 2018 (hochgeladen 2019)
 Programmiersprache: C++, 
 Hardware: Pixy-Kamera, Rapberry und Nucleo, 
 Kommunikation über Ein- und Ausgängen Fahrzeug steuert in Richtung eines farblich markierten Ziels.
