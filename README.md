@@ -1,4 +1,4 @@
-# carControl "driveGeay"
+# carControl "driveGeany"
 Programmiersprache: C++
 Hardware: Pixy-Kamera, Rapberry und Nucleo
 Kommunikation über Ein- und Ausgängen Fahrzeug steuert in Richtung eines farblich markierten Ziels.
