@@ -1,0 +1,3 @@
+/home/pi/WorkcpaceGeany/driveGeany/CMakeFiles/rebuild_cache.dir
+/home/pi/WorkcpaceGeany/driveGeany/CMakeFiles/edit_cache.dir
+/home/pi/WorkcpaceGeany/driveGeany/CMakeFiles/mainDrive.dir

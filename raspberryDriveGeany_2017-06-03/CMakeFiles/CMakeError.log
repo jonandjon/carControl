@@ -1,0 +1,220 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/pi/pixy/src/host/driveGeany/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_14684/fast"
+/usr/bin/make -f CMakeFiles/cmTC_14684.dir/build.make CMakeFiles/cmTC_14684.dir/build
+make[1]: Entering directory '/home/pi/pixy/src/host/driveGeany/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_14684.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++      -o CMakeFiles/cmTC_14684.dir/CheckSymbolExists.cxx.o -c /home/pi/pixy/src/host/driveGeany/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Linking CXX executable cmTC_14684
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_14684.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_14684.dir/CheckSymbolExists.cxx.o  -o cmTC_14684 -rdynamic 
+CMakeFiles/cmTC_14684.dir/CheckSymbolExists.cxx.o: In function `main':
+CheckSymbolExists.cxx:(.text+0x38): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_14684.dir/build.make:97: recipe for target 'cmTC_14684' failed
+make[1]: *** [cmTC_14684] Error 1
+make[1]: Leaving directory '/home/pi/pixy/src/host/driveGeany/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_14684/fast' failed
+make: *** [cmTC_14684/fast] Error 2
+
+File /home/pi/pixy/src/host/driveGeany/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/pi/pixy/src/host/driveGeany/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_65484/fast"
+/usr/bin/make -f CMakeFiles/cmTC_65484.dir/build.make CMakeFiles/cmTC_65484.dir/build
+make[1]: Entering directory '/home/pi/pixy/src/host/driveGeany/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_65484.dir/CheckFunctionExists.cxx.o
+/usr/bin/c++     -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_65484.dir/CheckFunctionExists.cxx.o -c /home/pi/pixy/src/host/driveGeany/CMakeFiles/CheckLibraryExists/CheckFunctionExists.cxx
+Linking CXX executable cmTC_65484
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_65484.dir/link.txt --verbose=1
+/usr/bin/c++    -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_65484.dir/CheckFunctionExists.cxx.o  -o cmTC_65484 -rdynamic -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_65484.dir/build.make:97: recipe for target 'cmTC_65484' failed
+make[1]: *** [cmTC_65484] Error 1
+make[1]: Leaving directory '/home/pi/pixy/src/host/driveGeany/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_65484/fast' failed
+make: *** [cmTC_65484/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/pi/WorkcpaceGeany/driveGeany/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ffc82/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ffc82.dir/build.make CMakeFiles/cmTC_ffc82.dir/build
+make[1]: Entering directory '/home/pi/WorkcpaceGeany/driveGeany/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_ffc82.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++      -o CMakeFiles/cmTC_ffc82.dir/CheckSymbolExists.cxx.o -c /home/pi/WorkcpaceGeany/driveGeany/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Linking CXX executable cmTC_ffc82
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ffc82.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_ffc82.dir/CheckSymbolExists.cxx.o  -o cmTC_ffc82 -rdynamic 
+CMakeFiles/cmTC_ffc82.dir/CheckSymbolExists.cxx.o: In function `main':
+CheckSymbolExists.cxx:(.text+0x38): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_ffc82.dir/build.make:97: recipe for target 'cmTC_ffc82' failed
+make[1]: *** [cmTC_ffc82] Error 1
+make[1]: Leaving directory '/home/pi/WorkcpaceGeany/driveGeany/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_ffc82/fast' failed
+make: *** [cmTC_ffc82/fast] Error 2
+
+File /home/pi/WorkcpaceGeany/driveGeany/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/pi/WorkcpaceGeany/driveGeany/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7da3f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7da3f.dir/build.make CMakeFiles/cmTC_7da3f.dir/build
+make[1]: Entering directory '/home/pi/WorkcpaceGeany/driveGeany/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_7da3f.dir/CheckFunctionExists.cxx.o
+/usr/bin/c++     -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_7da3f.dir/CheckFunctionExists.cxx.o -c /home/pi/WorkcpaceGeany/driveGeany/CMakeFiles/CheckLibraryExists/CheckFunctionExists.cxx
+Linking CXX executable cmTC_7da3f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7da3f.dir/link.txt --verbose=1
+/usr/bin/c++    -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_7da3f.dir/CheckFunctionExists.cxx.o  -o cmTC_7da3f -rdynamic -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_7da3f.dir/build.make:97: recipe for target 'cmTC_7da3f' failed
+make[1]: *** [cmTC_7da3f] Error 1
+make[1]: Leaving directory '/home/pi/WorkcpaceGeany/driveGeany/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_7da3f/fast' failed
+make: *** [cmTC_7da3f/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/pi/WorkcpaceGeany/driveGeany/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b7cd1/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b7cd1.dir/build.make CMakeFiles/cmTC_b7cd1.dir/build
+make[1]: Entering directory '/home/pi/WorkcpaceGeany/driveGeany/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_b7cd1.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++      -o CMakeFiles/cmTC_b7cd1.dir/CheckSymbolExists.cxx.o -c /home/pi/WorkcpaceGeany/driveGeany/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Linking CXX executable cmTC_b7cd1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b7cd1.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_b7cd1.dir/CheckSymbolExists.cxx.o  -o cmTC_b7cd1 -rdynamic 
+CMakeFiles/cmTC_b7cd1.dir/CheckSymbolExists.cxx.o: In function `main':
+CheckSymbolExists.cxx:(.text+0x38): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_b7cd1.dir/build.make:97: recipe for target 'cmTC_b7cd1' failed
+make[1]: *** [cmTC_b7cd1] Error 1
+make[1]: Leaving directory '/home/pi/WorkcpaceGeany/driveGeany/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_b7cd1/fast' failed
+make: *** [cmTC_b7cd1/fast] Error 2
+
+File /home/pi/WorkcpaceGeany/driveGeany/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/pi/WorkcpaceGeany/driveGeany/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_95232/fast"
+/usr/bin/make -f CMakeFiles/cmTC_95232.dir/build.make CMakeFiles/cmTC_95232.dir/build
+make[1]: Entering directory '/home/pi/WorkcpaceGeany/driveGeany/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_95232.dir/CheckFunctionExists.cxx.o
+/usr/bin/c++     -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_95232.dir/CheckFunctionExists.cxx.o -c /home/pi/WorkcpaceGeany/driveGeany/CMakeFiles/CheckLibraryExists/CheckFunctionExists.cxx
+Linking CXX executable cmTC_95232
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_95232.dir/link.txt --verbose=1
+/usr/bin/c++    -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_95232.dir/CheckFunctionExists.cxx.o  -o cmTC_95232 -rdynamic -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_95232.dir/build.make:97: recipe for target 'cmTC_95232' failed
+make[1]: *** [cmTC_95232] Error 1
+make[1]: Leaving directory '/home/pi/WorkcpaceGeany/driveGeany/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_95232/fast' failed
+make: *** [cmTC_95232/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/pi/WorkcpaceGeany/driveGeany/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_99061/fast"
+/usr/bin/make -f CMakeFiles/cmTC_99061.dir/build.make CMakeFiles/cmTC_99061.dir/build
+make[1]: Entering directory '/home/pi/WorkcpaceGeany/driveGeany/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_99061.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++      -o CMakeFiles/cmTC_99061.dir/CheckSymbolExists.cxx.o -c /home/pi/WorkcpaceGeany/driveGeany/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Linking CXX executable cmTC_99061
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_99061.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_99061.dir/CheckSymbolExists.cxx.o  -o cmTC_99061 -rdynamic 
+CMakeFiles/cmTC_99061.dir/CheckSymbolExists.cxx.o: In function `main':
+CheckSymbolExists.cxx:(.text+0x38): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_99061.dir/build.make:97: recipe for target 'cmTC_99061' failed
+make[1]: *** [cmTC_99061] Error 1
+make[1]: Leaving directory '/home/pi/WorkcpaceGeany/driveGeany/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_99061/fast' failed
+make: *** [cmTC_99061/fast] Error 2
+
+File /home/pi/WorkcpaceGeany/driveGeany/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/pi/WorkcpaceGeany/driveGeany/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1540c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1540c.dir/build.make CMakeFiles/cmTC_1540c.dir/build
+make[1]: Entering directory '/home/pi/WorkcpaceGeany/driveGeany/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_1540c.dir/CheckFunctionExists.cxx.o
+/usr/bin/c++     -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_1540c.dir/CheckFunctionExists.cxx.o -c /home/pi/WorkcpaceGeany/driveGeany/CMakeFiles/CheckLibraryExists/CheckFunctionExists.cxx
+Linking CXX executable cmTC_1540c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1540c.dir/link.txt --verbose=1
+/usr/bin/c++    -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_1540c.dir/CheckFunctionExists.cxx.o  -o cmTC_1540c -rdynamic -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_1540c.dir/build.make:97: recipe for target 'cmTC_1540c' failed
+make[1]: *** [cmTC_1540c] Error 1
+make[1]: Leaving directory '/home/pi/WorkcpaceGeany/driveGeany/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_1540c/fast' failed
+make: *** [cmTC_1540c/fast] Error 2
+
+

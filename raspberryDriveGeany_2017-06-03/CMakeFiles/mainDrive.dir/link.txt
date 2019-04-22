@@ -1,0 +1,1 @@
+/usr/bin/c++      CMakeFiles/mainDrive.dir/mainDrive.cpp.o CMakeFiles/mainDrive.dir/Tastatur.cpp.o CMakeFiles/mainDrive.dir/CamPixy.cpp.o CMakeFiles/mainDrive.dir/Bildanalyse.cpp.o CMakeFiles/mainDrive.dir/Regler.cpp.o  -o mainDrive -rdynamic -lpixyusb -lwiringPi -lboost_thread -lboost_system -lboost_chrono -lboost_date_time -lboost_atomic -lpthread -lusb-1.0 
