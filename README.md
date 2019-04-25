@@ -1,4 +1,5 @@
 # Car-Control "driveGeany"
+# Modellauto verfolgt ein farblich markiertes Ziel
 ### Autor: Jonas Heinke, Datum: 2017 - 2018 (hochgeladen 2019)
 Programmiersprache: C++, 
 Hardware: Pixy-Kamera, Rapberry und Nucleo, 
